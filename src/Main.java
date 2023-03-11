@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        EmployeeBook employeeBook = new EmployeeBook(10);
+        EmployeeBook employeeBook = new EmployeeBook();
         employeeBook.addEmployee(new Employee("Иван", "Андреевич", "Донченко", 1, 45_000));
         employeeBook.addEmployee(new Employee("Евгений", "Евгеньевич", "Бирюков", 1, 48_000));
         employeeBook.addEmployee(new Employee("Виктор", "Михайлович", "Угаров", 2, 54_000));
